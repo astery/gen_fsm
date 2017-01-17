@@ -1,12 +1,12 @@
 defmodule FsmMacros do
-  @docmodule """
+  @moduledoc """
   Debug macro for checking state_data and state_name for nil
 
   Enable debug audit by setting @debug to true. This is a compile 
   time check. So, disabling it has not affect on real time performance.
   """
   require Logger
-  
+
   @debug false  # set this to true to compile in debugging
 
   @doc """

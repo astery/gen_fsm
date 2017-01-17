@@ -5,7 +5,7 @@ defmodule GenFsm.Mixfile do
     [app: :gen_fsm,
      version: "1.0.0",
      elixir: "~> 1.0",
-     deps: deps]
+     deps: deps()]
   end
 
   def application do
